@@ -1,3 +1,5 @@
+import java.util.*;
+import java.text.*;
 public class Produto {
     private String descricao;   //Descricao do produto
     private int id;             //ID do produto
