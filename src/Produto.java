@@ -33,22 +33,9 @@ public class Produto {
         return Produto.quantidade;
     }
 
-    //Metodo recebe descricao
-    public void setDescricao(String descricao){
-        this.descricao = descricao;
-    }
 
-    //Metodo recebe ID
-    public void setId(int id){
-        this.id = id;
-    }
 
-    //Metodo recebe valor
-    public void setValor(double valor){
-        this.valor = valor;
-    }
-
-    //Metodo retorna quantidade
+    //Metodo retorna informacoes do produto
     public String toString(){
         return "ID: " + this.id + " Descricao: " + this.descricao + " Valor: " + this.valor;
     }
