@@ -1,3 +1,10 @@
+/// Projeto: Cadastro de produtos
+///
+/// Alunos: Lucca Vasconcelo Costa Oliveira     RA: 22003004
+///         Giovani Bellini dos Santos          Ra: 22007263
+///         Victor de Melo Roston               RA: 22006737
+///
+
 import java.util.*;
 import java.text.*;
 public class Produto {
@@ -31,6 +38,11 @@ public class Produto {
     //Metodo retorna quantidade
     public static int getQuantidade(){
         return Produto.quantidade;
+    }
+
+    //Metodo seta valor
+    public void setValor(double valor){
+        this.valor = valor;
     }
 
 
